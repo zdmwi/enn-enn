@@ -1,6 +1,9 @@
 # don't commit intermediate images
 gif/*.png
 
+# mac stuff
+*/.DS_STORE
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
