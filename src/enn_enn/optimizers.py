@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from collections import defaultdict
 import numpy as np
 
-import nn.layers as l
+import enn_enn.layers as l
 
 
 class Optimizer(ABC):

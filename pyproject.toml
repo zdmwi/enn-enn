@@ -1,0 +1,17 @@
+[project]
+name = "enn-enn"
+version = "0.1.0"
+license = "MIT"
+description = "Enn-enn is a toy library for building and training neural networks"
+readme = "README.md"
+authors = [
+    { name = "Zidane Wright", email = "zidanewright@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.2.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
