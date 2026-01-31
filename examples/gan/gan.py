@@ -5,12 +5,12 @@ import glob
 import pickle
 import time
 
-import nn
-import nn.models as m
-import nn.layers as l
-import nn.optimizers as optimizers
-import nn.metrics as metrics
-import nn.utils
+import enn_enn as nn
+import enn_enn.models as m
+import enn_enn.layers as l
+import enn_enn.optimizers as optimizers
+import enn_enn.metrics as metrics
+import enn_enn.utils
 
 class GAN:
     def __init__(self, data, gen_params, dis_params, name):

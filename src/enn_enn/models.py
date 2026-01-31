@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 import numpy as np
 from collections import defaultdict
 
-import nn.layers as l
+import enn_enn.layers as l
 from nn.utils import get_batches
 
 
